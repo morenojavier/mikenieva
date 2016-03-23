@@ -21,8 +21,8 @@ browserSync = require 'browser-sync'
 reload      = browserSync.reload
 
 PORT =
-  GHOST: 2387
-  BROWSERSYNC: 3000
+  GHOST: 2368
+  BROWSERSYNC: 2368
 
 # -- Files ---------------------------------------------------------------------
 
@@ -38,7 +38,6 @@ src =
   js       :
     main   : ['assets/js/src/__init.coffee'
               'assets/js/src/main.coffee'
-              'assets/js/src/cover.coffee'
               'assets/js/src/search.coffee']
     vendor : ['assets/vendor/fastclick/lib/fastclick.js'
               'assets/vendor/ghostHunter/jquery.ghostHunter.min.js'

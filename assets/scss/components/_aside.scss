@@ -39,13 +39,13 @@
 .profile {
   max-width: 38.75rem;
   > p {
-    margin: 10px 2rem;
+    margin: 30px 2rem;
 
     font-size: .9rem;
   }
   > a {
     > h1 {
-      margin: 10px auto;
+      margin: 30px auto;
 
       font-family: $sans-font;
       font-size: $unit * 1.6;
@@ -71,6 +71,7 @@
 .navigation {
   &.left {
     display: inline-block;
+    margin: 30px auto;  
     .links {
       margin: 0;
 
