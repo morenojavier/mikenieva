@@ -82,6 +82,16 @@
     }
   }
 
+.etiquetas a{
+    background: #4091AE;
+    padding: .15rem .25rem;
+    font-size: .55rem;
+    transition: all 350ms;
+    text-transform: uppercase;
+    color: #f8f8f8;
+    border-radius: .25rem;
+}
+
   &.author {
     img {
       display: inline-block;

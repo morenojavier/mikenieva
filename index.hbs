@@ -84,7 +84,7 @@
     margin: 0;
     margin-bottom: 20px;
 ">
-  Forma parte de nuestra edición semanal, <strong>para más recomendaciones.</strong>
+  La mejor compilación de <strong>consejos profesionales</strong> cada semana.
 </p>
 
 <!-- Begin MailChimp Signup Form --><link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css"><style type="text/css">
@@ -179,9 +179,24 @@ font-weight: normal;
 <ol id="posts-list">	
   {{#foreach posts}}
   <li>
+    <div class="post-tag" style="margin-left: 0px;  width: 100%; vertical-align: top; padding-top: 0px; color: rgb(255, 255, 255); display: block;margin-bottom: 50px;">
+                <div style="display: inline-block;width: 20%;padding: 5px;background: white;line-height: 15px;">
+                    <a href="{{url}}" style="display: inline-block;">
+                        <img src="{{image absolute="true"}}" style="width:100%;">
+                    </a>
+                </div>
+                <article class="post tag-liderar" style="display: inline-block;width: 65%;vertical-align: top;padding: 0 15px;">
+                    <a href="{{url}}">
+                        <header class="post-header" style="padding-bottom: 1rem;">
+                            <h2 class="post-title" style="font-size: 23px;margin: 0;">{{{title}}}</h2>
+                        </header>
+                    </a>
+                    <span class="etiquetas">
+                          {{tags}}
+                    </span>
+                </article>
+            </div>
 
-    <span class="post tags">{{tags separator=" "}}</span>
-    <a href="{{url}}" title="link to {{{title}}}">{{title}}</a>
 
   </li>
   {{/foreach}}
