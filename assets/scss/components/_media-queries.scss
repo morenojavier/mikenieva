@@ -10,7 +10,23 @@
   .content {
     margin: 0 7rem;
   }
+
+  #encabezado-mobile {
+    display: none;
+  }
+
 }
+
+
+@media only screen and (min-width:1025px) {
+
+  #encabezado-mobile {
+    display: none;
+  }
+
+}
+
+
 
 // ------------------------------
 // < 1024px (Tablet)
@@ -19,12 +35,18 @@
 @media all and (max-width:1024px) {
   /* disabling element, too much information*/
 
+
+
+
+
   .pace,
   span.post.tags,
   .post.reading-time,
   .post.related {
     display: none;
   }
+
+
 
   #search-container {
     display: none !important;
@@ -222,4 +244,7 @@
   #post-title {
     margin: 2.5rem 0;
   }
+
+
+
 }

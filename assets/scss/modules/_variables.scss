@@ -22,8 +22,8 @@ $secondary-color       : $yellow;
 $cover-secondary       : rgba(#5f2c82, .1);
 $cover-primary         : rgba(#49a09d, .2);
 
-$link-color            : $gray-darkest;
-$hover-color           : $primary-color;
+$link-color            : $black;
+$hover-color           : $black;
 
 $divider-color         : rgba(255, 255, 255, .14);
 
@@ -31,8 +31,8 @@ $divider-color         : rgba(255, 255, 255, .14);
 
 $unit                  : 1rem;
 
-$sans-font             : 'Raleway', sans-serif;
-$serif-font            : 'Roboto Slab', serif;
+$sans-font             : 'Open Sans', sans-serif;
+$serif-font            : 'Open Sans', serif;
 $code-font             : Consolas, "Liberation Mono", Menlo, Courier, monospace;
 $quote-font            : "freight-text-pro", Georgia, Cambria, "Times New Roman", Times, serif;
 $line-height           : 1.75rem;

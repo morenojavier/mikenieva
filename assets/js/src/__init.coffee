@@ -17,19 +17,6 @@ window.Uno = Uno =
 
   loadingBar: (action) -> $('.pace')[action]()
 
-  timeAgo: (selector) ->
-    $(selector).each ->
-      postDate = $(this).html()
-      postDateInDays = Math.floor((Date.now() - new Date(postDate)) / 86400000)
-
-      if postDateInDays is 0 then postDateInDays = 'today'
-      else if postDateInDays is 1 then postDateInDays = 'yesterday'
-      else postDateInDays = "#{postDateInDays} days ago"
-
-      $(this).html(postDateInDays)
-      $(this).mouseover -> $(this).html postDate
-      $(this).mouseout -> $(this).html postDateInDays
-
   device: ->
     w = window.innerWidth
     h = window.innerHeight

@@ -18,8 +18,9 @@ body {
 }
 
 body {
-  color: $gray-darker;
+  color: black;
   font-family: $sans-font;
+  background: #f2efe8;
 }
 
 mark {
@@ -59,7 +60,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: $gray-darkest;
+  color: #4091AE;
   font-family: $serif-font;
   -webkit-font-smoothing: antialiased;
   font-weight: lighter;
@@ -74,6 +75,9 @@ h1 {
 h2 {
   font-size: $font-h2;
   margin: $margin-h2 0;
+  margin-top: 3.5em;
+  border-bottom: solid 1px #4091AE;
+  padding-bottom: 30px;
 }
 
 h3 {
@@ -98,7 +102,12 @@ h6 {
 
 p {
   line-height: $line-height;
-  margin-bottom: 1.3rem;
+  margin: 2em 0;
+  font-family: 'Open Sans', serif;
+  font-size: 1rem;
+  line-height: 2.3em;
+  font-weight: 200;
+  text-align: justify;
 }
 
 strong {
@@ -239,4 +248,9 @@ main {
   margin: 0 .05em 0 .1em !important;
   vertical-align: -.1em !important;
   width: 1em !important;
+}
+
+video {
+  width: 100%    !important;
+  height: auto   !important;
 }
