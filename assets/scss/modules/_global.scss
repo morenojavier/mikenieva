@@ -254,3 +254,20 @@ video {
   width: 100%    !important;
   height: auto   !important;
 }
+
+div.block-socialbuttons
+{
+    margin: 3em 0 0;
+    text-align: left;
+}
+
+div.socialbutton
+{
+    display: inline-block;
+    vertical-align: top;
+    line-height: 0;
+    font-size: 0;
+    width: 135px;
+}
+
+

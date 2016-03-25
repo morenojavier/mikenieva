@@ -1,17 +1,142 @@
 {{!< default}}
 
+<p style="
+    margin: 0;
+    margin-bottom: 20px;
+">
+  La mejor compilación de <strong>consejos profesionales</strong> cada semana.
+</p>
+
+<!-- Begin MailChimp Signup Form --><link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css"><style type="text/css">
+#mc_embed_signup .button {
+clear: both;
+background-color: #4091AE;
+border: 0 none;
+border-radius: 4px;
+color: #FFFFFF;
+cursor: pointer;
+display: inline-block;
+font-size: 15px;
+font-weight: bold;
+height: 32px;
+line-height: 32px;
+margin: 0 5px 10px 0;
+padding: 0 22px;
+text-align: center;
+text-decoration: none;
+vertical-align: top;
+white-space: nowrap;
+width: auto;
+} 
+#mc_embed_signup form {
+display: block;
+position: relative;
+text-align: left;
+padding: 10px 0 10px 0%;
+}
+
+
+    
+#mc_embed_signup #mce-success-response {
+color: #166A87;
+font-weight: normal;
+font-family: 'Open sans';
+font-size: 14px;
+}
+#mc_embed_signup{clear:left; font:14px Helvetica,Arial,sans-serif; margin-top:30px;} 
+#mc_embed_signup .mc-field-group {clear: left;
+    position: relative;
+    width: 20%;
+    padding-bottom: 3%;
+    min-height: 50px;
+    display: inline-block;
+    padding-right: 25px;}
+#mc_embed_signup div#mce-responses {
+float: left;
+top: -1.4em;
+padding: 0 !important;
+overflow: hidden;
+width: 90%;
+margin: 0 !important;
+clear: both;
+}
+#mc_embed_signup div.mce_inline_error {
+margin: 0 0 1em 0;
+padding: 5px 10px;
+background-color: #D9D4DA;
+font-weight: bold;
+z-index: 1;
+color: #fff;
+font-size: 11px;
+font-weight: normal;
+}
+</style>
+<div id="mc_embed_signup" style="padding-bottom: 1.5rem; border-bottom: solid 1px #B5B9BA;"><form action="//conexionew.us7.list-manage.com/subscribe/post?u=ed01cbcbb32aa86f232eb4854&amp;id=ea3a2d33d1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="novalidate" _lpchecked="1"><div class="indicates-required"><span class="asterisk"></span>
+</div>
+
+<div class="mc-field-group">    
+
+  <input type="email" value="" placeholder="Tu email" name="EMAIL" class="required email valid" id="mce-EMAIL" aria-required="true" style="cursor: auto; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==&quot;); background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; background-repeat: no-repeat; text-indent: 5%;" aria-invalid="false">
+
+<div for="mce-EMAIL" class="mce_inline_error" style="display: none;">Por favor, escribe una dirección de correo válida</div></div>
+
+<div class="mc-field-group">    
+  <input type="text" value="" placeholder="Tu nombre" name="FNAME" class="required valid" id="mce-FNAME" aria-required="true" aria-invalid="false" style="text-indent: 5%;">
+
+    <div for="mce-FNAME" class="mce_inline_error" style="display: none;">Este campo es obligatorio.</div></div>  
+    <div id="mce-responses" class="clear">    
+      <div class="response" id="mce-error-response" style="display:none"></div>    
+      <div class="response" id="mce-success-response" style="display:none"></div>  
+    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->    
+      <div style="position: absolute; left: -5000px;"><input type="text" name="b_ed01cbcbb32aa86f232eb4854_ea3a2d33d1" tabindex="-1" value=""></div>    <div class="clear" style="
+    display: inline-block;
+    vertical-align: top;
+"><input type="submit" value="Suscribirme" name="subscribe" id="mc-embedded-subscribe" class="button"></div></form></div>
+
+
 {{#post}}
 
   <article class="{{post_class}}">
     <header>
       <div class="post meta">
-        <time datetime="{{date format="YYYY-MM-DDTHH:MM"}}">{{date format="DD MMM YYYY"}}</time>
-        <span class="post tags">{{tags prefix=" - " separator=" "}}</span>
+        <h1 id="post-title">{{{title}}}</h1>
+        <div class="block-socialbuttons">
+
+        <!-- Facebook Like Button -->
+
+        <div class="socialbutton facebookbutton">
+            <div class="fb-like" data-href="{{url}}" data-width="100px" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+        </div>
+
+        <!-- Twitter Tweet Button -->
+
+        <div class="socialbutton twitterbutton">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-via="mikenieva">
+                Tweet
+            </a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+                </script>
+        </div>
+
+        <!-- Linkedin Shace Button -->
+
+        <div class="socialbutton">
+            <script src="//platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
+            <script type="IN/Share" data-counter="right"></script>
+        </div>
+
+        <!-- Google Plus Button -->
+
+        <div class="socialbutton">
+            <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+            <g:plusone></g:plusone>
+        </div>                         
+    
+    </div>
 
         {{!> post-author}}
       </div>
         {{#if image}}<img id="post-image" src={{image}} alt="{{{title}}}">{{/if}}
-        <h1 id="post-title">{{{title}}}</h1>
     </header>
 
     <div id="post-content" class="{{post_class}}">

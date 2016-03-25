@@ -8,6 +8,22 @@
     {{ghost_head}}
   </head>
   <body class="{{body_class}}">
+
+    <!-- - Facebook JS SKD
+============================== -->
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=753203161390474";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- ============================== -->
+
+
     {{> aside}}
     <main>
       <section id="search-results"></section>
