@@ -1,10 +1,11 @@
 {
-  "name": "uno-zen",
-  "description": "Minimalist and Elegant theme for Ghost",
-  "homepage": "https://github.com/kikobeats/uno-zen",
+  "name": "mikenieva-unozen",
+  "description": "Theme for miguelnieva.com",
+  "homepage": "https://miguelnieva.com",
   "version": "2.7.8",
   "authors": [
     "Kiko Beats <josefrancisco.verdu@gmail.com>"
+    "Miguel Nieva <mike.nieva@gmail.com>"
   ],
   "repository": {
     "type": "git",
