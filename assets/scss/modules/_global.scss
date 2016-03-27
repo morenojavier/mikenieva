@@ -271,3 +271,148 @@ div.socialbutton
 }
 
 
+
+#mc_embed_signup .button {
+clear: both;
+background-color: #4091AE;
+border: 0 none;
+border-radius: 4px;
+color: #FFFFFF;
+cursor: pointer;
+display: inline-block;
+font-size: 15px;
+font-weight: bold;
+height: 32px;
+line-height: 32px;
+margin: 0 5px 10px 0;
+padding: 0 22px;
+text-align: center;
+text-decoration: none;
+vertical-align: top;
+white-space: nowrap;
+width: auto;
+}
+
+#mc_embed_signup form {
+display: block;
+position: relative;
+text-align: left;
+padding: 10px 0 10px 0%;
+}
+    
+#mc_embed_signup #mce-success-response {
+color: #166A87;
+font-weight: normal;
+font-family: 'Open sans';
+font-size: 14px;
+}
+
+#mc_embed_signup {
+  clear:left; 
+  font:14px Helvetica,Arial,sans-serif; 
+  margin-top:30px;
+} 
+
+#mc_embed_signup .mc-field-group {
+    clear: left;
+    position: relative;
+    width: 20%;
+    padding-bottom: 3%;
+    min-height: 50px;
+    display: inline-block;
+    padding-right: 25px;
+}
+
+#mc_embed_signup div#mce-responses {
+float: left;
+top: -1.4em;
+padding: 0 !important;
+overflow: hidden;
+width: 90%;
+margin: 0 !important;
+clear: both;
+}
+#mc_embed_signup div.mce_inline_error {
+margin: 0 0 1em 0;
+padding: 5px 10px;
+background-color: #D9D4DA;
+font-weight: bold;
+z-index: 1;
+color: #fff;
+font-size: 11px;
+font-weight: normal;
+}
+
+#mc_embed_signup .mc-field-group input {
+    display: block;
+    width: 150px;
+    padding: 8px 0;
+    text-indent: 5%;
+}
+
+p.mc-description {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+#encabezado-mobile {
+  padding-bottom: 3rem;
+}
+
+h1.blog-title {
+
+    text-align: center; 
+    color: black;
+
+}
+
+h2.blog-description {
+    margin: 1.5em 0 1.98rem;
+    padding-bottom: 30px;
+    text-align: center; 
+    border-bottom: none; 
+    color: black;
+}
+
+div.post-tag {
+    margin-left: 0px;  
+    width: 100%; 
+    vertical-align: top; 
+    padding-top: 0px; 
+    color: rgb(255, 255, 255); 
+    display: block;
+    margin-bottom: 70px;
+}
+
+div.post-tag article {
+  display: inline-block;
+  width: 65%;
+  vertical-align: top;
+  padding: 0 15px;
+}
+
+div.post-image {
+    display: inline-block;
+    width: 20%;
+    padding: 5px;
+    background: white;
+    line-height: 15px;
+}
+
+
+div.post-image a {
+  display: inline-block;
+}
+
+div.post-image a img {
+  width:100%;
+}
+
+div.post-header {
+  padding-bottom: 1rem;
+}
+
+h2.post-title {
+  font-size: 23px;
+  margin: 0;
+}

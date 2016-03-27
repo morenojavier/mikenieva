@@ -17,12 +17,96 @@
 
 }
 
+@media only screen and (max-width:1290px) {
 
+#mc_embed_signup .mc-field-group {
+    width: 28%;
+    }
+}
+
+@media only screen and (max-width:1096px) {
+
+
+
+#mc_embed_signup .mc-field-group {
+    width: 30%;
+   }
+}
+
+@media only screen and (max-width:1090px) {
+
+
+
+#mc_embed_signup .mc-field-group {
+    width: 33%;
+   }
+}
+  
 @media only screen and (min-width:1025px) {
 
   #encabezado-mobile {
     display: none;
   }
+
+
+}
+
+@media only screen and (min-width:1025px) and (max-width: 1090px) {
+
+
+  main>.content {
+    margin: 0 0.7rem;
+    padding: 2rem 0;
+  }
+
+  #mc_embed_signup form {
+    display: block;
+    position: relative;
+    text-align: left;
+    padding: 10px 0;
+  }
+
+  #mc_embed_signup .button {
+    background: #4091AE;
+    border: 0;
+    border-radius: 4px;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 300;
+    height: 32px;
+    line-height: 32px;
+    margin: 0 5px 10px 0;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 92px;
+    display: inline-block;
+}
+
+#mc_embed_signup .mc-field-group input {
+    display: block;
+    width: 150px;
+    padding: 8px 0;
+    text-indent: 5%;
+}
+
+#mc_embed_signup .mc-field-group {
+    width: 30%;
+}
+
+#mc_embed_signup {
+    clear: left;
+    font: 14px Helvetica,Arial,sans-serif;
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+
+p.mc-description {
+  text-align: left;
+}
 
 }
 
@@ -34,7 +118,6 @@
 
 @media all and (max-width:1024px) {
   /* disabling element, too much information*/
-
 
 
 
@@ -74,6 +157,8 @@
       }
     }
   }
+
+
 
   .cover {
     width: 16rem;
@@ -173,6 +258,33 @@
       transform: translate3d(14rem, 0, 0);
     }
   }
+
+  p.mc-description {
+    margin: 0 0 20px;
+    text-align: center;
+}
+
+#mc_embed_signup form {
+    text-align: center;
+}
+
+#mc_embed_signup .mc-field-group {
+    width: 20%;
+}
+
+main {
+    
+    padding: 2rem 0rem;
+}
+
+div.post-tag {
+    text-align: center;
+}
+
+div.post-tag article {
+    text-align: left;
+}
+
 }
 
 // ------------------------------
@@ -244,6 +356,8 @@
   #post-title {
     margin: 2.5rem 0;
   }
+
+
 
 
 
