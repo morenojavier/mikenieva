@@ -421,3 +421,27 @@ ul.social {
     text-align: center;
     margin: 0 0 3rem;
 }
+
+ul.social li {
+
+  display: inline-block;
+  box-shadow: 0 0 1px transparent;
+  vertical-align: middle;
+
+}
+
+ul.navegacion {
+  text-align:center; 
+  margin:0;
+}
+
+
+ul.navegacion a li{
+  display: inline-block;
+  color: #4292AE;
+  border: 1px solid #4292AE;
+  padding: 5px 35px;
+  border-radius: 9px;
+  font-weight: 200;
+  font-size: 16px;
+}
