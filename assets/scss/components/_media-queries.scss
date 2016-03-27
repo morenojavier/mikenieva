@@ -340,6 +340,27 @@ ul.navegacion a li {
     font-size: 16px;
 }
 
+div.post-tag {
+    margin-left: 0;
+    width: 100%;
+    vertical-align: top;
+    padding-top: 0;
+    color: #fff;
+    display: block;
+    margin-bottom: 70px;
+}
+
+div.post-tag article {
+ text-align: center;
+}
+
+div.post-image {
+    width: 67%;
+    padding: 5px;
+    background: #fff;
+    line-height: 15px;
+}
+
 }  
 
 // ------------------------------
