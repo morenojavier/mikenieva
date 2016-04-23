@@ -1,5 +1,15 @@
 {{!< default}}
 
+{{#contentFor "meta"}}
+    <meta property="og:url" content="{{@blog.url}}" />
+    <meta property="og:title" content="Miguel Nieva" />
+    <meta property="og:site_name" content="{{@blog.title}}" />
+    {{#if @blog.logo}}<meta property="og:image" content="{{@blog.url}}{{@blog.logo}}" />{{/if}}
+    <meta property="og:description" content="Sé tu mejor versión profesional."/>
+    <meta property="fb:profile_id" content="mikenieva" />
+    <meta property="fb:admins" content="mikenieva" />
+{{/contentFor}}
+
 <div id="encabezado-mobile">
 
   <h1 class="blog-title"  id="posts-headline">Miguel Nieva</h1>
