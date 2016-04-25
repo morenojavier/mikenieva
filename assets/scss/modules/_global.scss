@@ -417,12 +417,15 @@ h2.post-title {
   margin: 0;
 }
 
-ul.social {
-    text-align: center;
-    margin: 0 20% 3rem;
+div.social {
+
+   text-align: center;
+   margin: 0 20% 3rem;
+
 }
 
-ul.social li {
+
+div.social div{
 
   display: inline-block;
   box-shadow: 0 0 1px transparent;
