@@ -449,3 +449,44 @@ ul.navegacion a li{
   font-weight: 200;
   font-size: 16px;
 }
+
+
+h1.agenda {
+text-align: center; margin-bottom: 60px;
+}
+
+h2.titulos-agenda{
+
+border-bottom: none;
+    background: #4091AE;
+    border-radius: 4px;
+    text-align: center;
+    margin: 0;
+    color: white;
+    font-size: 1.1rem;
+    margin-bottom: 80px;
+    padding: 0;
+    }
+
+h2.evento-titulo {
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+}
+
+h3.evento-descripcion{
+
+    color: black;
+    font-size: .9rem;
+    margin: 10px 0;
+}
+
+div.post-tag a.evento-etiquetas {
+    color: black;
+    background: #ffe28c;
+    padding:.15rem .25rem;
+    margin: 0.15rem 0.35rem
+}
+
+div.post-tag a.evento-etiquetas:first-child {
+    margin-left: 0;
+}

@@ -1,6 +1,66 @@
 {{!< default}}
 
-<h1 style="text-align: center;">{{tag.name}}.</h1>
+<div id="encabezado-mobile">
+  <h1 style="    position: fixed;
+    top: 0;
+    width: 100%;
+    background: black;
+    margin: 0;
+    padding: 0;
+    color: white;
+    left: 0px;" class="blog-title"  id="posts-headline"><a href="http://miguelnieva.com" style="color: white;">Miguel Nieva</a></h1>
+  <h2 style=" padding: 23px 0 10px;" class="blog-description">Sé tu mejor versión profesional.</h2>
+  <div class="social" style="    margin: 0 22% 1rem;">
+
+    <!-- Facebook -->
+    <div>
+      <a rel="me" target="blank" href="https://facebook.com/miguelnieva.com" title="Mike Nieva en Facebook">
+        <i class='icon icon-social-facebook' style="font-size: 30px;"></i>
+        <span class="label"></span>
+      </a>
+    </div>
+
+    <!-- Twitter -->
+    <div>
+      <a rel="me" target="blank" href="https://twitter.com/mikenieva" title="@mikenieva en Twitter">
+        <i class='icon icon-social-twitter' style="font-size: 30px;"></i>
+        <span class="label"></span>
+      </a>
+    </div>
+
+    <!-- Linkedin -->
+    <div>
+      <a rel="me" target="blank" href="https://mx.linkedin.com/in/miguelnieva" title="Mike Nieva en LinkedIn">
+        <i class='icon icon-social-linkedin' style="font-size: 30px;"></i>
+        <span class="label"></span>
+      </a>
+    </div>
+
+  <!-- Mail -->
+    <div>
+      <a rel="me" target="blank" href="http://miguelnieva.com/contacto" title="mike@miguelnieva.com">
+        <i class='icon icon-mail' style="font-size: 30px;"></i>
+        <span class="label"></span>
+      </a>
+    </div>
+
+
+  </div>
+
+<ul class="navegacion" style="">
+    <a href="http://miguelnieva.com/">
+      <li>Artículos</li>
+    </a>
+  <a href="http://miguelnieva.com/agenda/">
+    <li>Agenda</li>
+    </a>
+  <a href="http://miguelnieva.com/cursos/">
+    <li>Cursos</li>
+  </a>
+</ul>
+</div>
+
+<h1 style="text-align: center;">{{tag.name}}</h1>
 <ol id="posts-list">
   {{#foreach posts}}
   <li>
