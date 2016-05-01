@@ -1,5 +1,18 @@
 {{!< default}}
 
+{{! Información sobre Post para el loop }}
+        {{#contentFor "meta"}}
+            <meta property="og:title" content="{{title}} - Miguel Nieva" />
+            <meta property="og:site_name" content="{{@blog.title}}" />
+            <meta property="og:description" content="{{excerpt characters="220"}}..."/>
+            <meta property="og:image" content="{{@blog.url}}{{image}}">
+            <meta property="article:author" content="https://facebook.com/mike.nieva" />
+            <meta property="article:published_time" content="{{date format="YYYY-MM-DD"}}" />{{#foreach tags}}
+            <meta property="article:tag" content="{{name}}" />{{/foreach}}
+            <meta property="fb:profile_id" content="mikenieva" />
+            <meta property="fb:admins" content="mikenieva" />
+        {{/contentFor}}
+
 <div id="encabezado-mobile">
   <h1 style="    position: fixed;
     top: 0;
