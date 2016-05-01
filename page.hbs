@@ -11,19 +11,14 @@
     left: 0px;" class="blog-title"  id="posts-headline"><a href="http://miguelnieva.com" style="color: white;">Miguel Nieva</a></h1>
   <h2 style=" padding: 23px 0 10px;" class="blog-description">Sé tu mejor versión profesional.</h2>
 {{> encabezado-social}}
-
+{{> encabezado-navegacion}}
 </div>
-
 {{#post}}
 
   <article class="{{post_class}}">
     <header>
-      <a alt="Tweet '{{title}}'" href="https://twitter.com/intent/tweet?text={{encode title}}{{encode ' »'}}&amp;hashtags={{tags separator="," autolink="false"}}&amp;url={{url absolute="true"}}">
-        {{#if image}}<img id="post-image" src={{image}} alt="{{{title}}}">{{/if}}
         <h1 class="icon-reverse icon-social-twitter-post" id="post-title">{{{title}}}</h1>
-      </a>
     </header>
-
     <div id="post-content" class="{{post_class}}">
       {{content}}
     </div>
