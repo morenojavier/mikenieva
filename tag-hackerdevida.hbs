@@ -1,1 +1,116 @@
-tag-hackerdevida.hbs
+{{!< default}}
+
+<div id="encabezado-mobile">
+  <h1 style="    position: fixed;
+    top: 0;
+    width: 100%;
+    background: black;
+    margin: 0;
+    padding: 0;
+    color: white;
+    left: 0px;" class="blog-title"  id="posts-headline"><a href="http://miguelnieva.com" style="color: white;">Miguel Nieva</a></h1>
+  <h2 style=" padding: 23px 0 10px;" class="blog-description">Sé tu mejor versión profesional.</h2>
+  {{> encabezado-social}}
+
+<ul class="navegacion" style="">
+    <a href="http://miguelnieva.com/">
+      <li>Artículos</li>
+    </a>
+  <a href="http://miguelnieva.com/agenda/">
+    <li>Agenda</li>
+    </a>
+  <a href="http://miguelnieva.com/cursos/">
+    <li>Cursos</li>
+  </a>
+</ul>
+</div>
+
+<h1 style="text-align: center;">{{tag.name}}</h1>
+  
+
+  </section>
+
+<div style="
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+">  
+      
+<p style="
+    margin: 0;
+    margin-right: 15px;
+    font-size: 16px;
+">Internet creó la mejor época de la humanidad.</p>
+<p style="
+    margin: 0;
+    margin-right: 15px;
+    font-size: 16px;
+"><strong>Conecta</strong> al máximo nivel posible.</p><p style="
+    margin: 0;
+    margin-right: 15px;
+    font-size: 16px;
+">Crea portafolios, sé autodidacta y forma parte de las redes sociales que están cambiando al mundo.</p>
+    </div>
+
+{{#tag}}
+
+{{#if image}}
+
+<div style="width: 30%;display: inline-block;margin-left: 8%;">
+      <img src="{{@blog.url}}{{image}}" style="    width: 100%;
+    padding: 5px;
+    background: #fff;
+    line-height: 15px;" alt="{{name}}">
+
+<div>
+  <a href="http://platzi.com">
+<div style="
+    display: inline-block;
+    vertical-align: bottom;
+">
+<img src="https://d1qb2nb5cznatu.cloudfront.net/startups/i/228069-3505671d2fa91218bd7676733164afe9-medium_jpg.jpg?buster=1426816465" style="
+    width: 21px;
+    border-radius: 7px;
+">
+</div>
+  <div style="
+    display: inline-block;
+    vertical-align: top;
+"><p style="
+    font-size: 16px;
+    margin: 0;
+    margin-left: 5px;
+    text-decoration: underline;
+    color: #4091AE;
+  ">Conoce más en Platzi.</p></div>
+  
+  </a>
+</div>
+    </div>
+
+{{/if}}
+
+{{/tag}}
+
+<ol id="posts-list">  
+  {{#foreach posts}}
+  <li>
+    <div class="post-tag">
+      <div class="post-image">
+        <a href="{{url}}">
+          <img src="{{image absolute="true"}}">
+        </a>
+      </div>
+      <article class="post">
+        <a href="{{url}}">
+          <header class="post-header">
+            <h2 class="post-title">{{{title}}}</h2>
+          </header>
+        </a>
+        <span class="etiquetas">{{tags}}</span>
+      </article>
+    </div>
+  </li>
+  {{/foreach}}
+</ol>
+{{pagination}}
