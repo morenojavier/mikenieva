@@ -26,12 +26,25 @@
 </div>
 
 <h1 style="text-align: center;">{{tag.name}}</h1>
-<ol id="posts-list">
+<ol id="posts-list">  
   {{#foreach posts}}
   <li>
-    <a href="{{url}}" title="link to {{{title}}}">{{title}}</a>
+    <div class="post-tag">
+      <div class="post-image">
+        <a href="{{url}}">
+          <img src="{{image absolute="true"}}">
+        </a>
+      </div>
+      <article class="post">
+        <a href="{{url}}">
+          <header class="post-header">
+            <h2 class="post-title">{{{title}}}</h2>
+          </header>
+        </a>
+        <span class="etiquetas">{{tags}}</span>
+      </article>
+    </div>
   </li>
   {{/foreach}}
 </ol>
-
 {{pagination}}
