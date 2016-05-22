@@ -30,28 +30,41 @@
 
   </section>
 
-{{#tag}}
-  {{#if image}}
-    <div style="
-        width: 45%;
-    display: inline-block;
-    vertical-align: top;
-">
-      <img src="{{@blog.url}}{{image}}" style="width:100%;" alt="{{name}}" />
-    </div>
-    {{/if}}
-    {{#if description}}
-    <div style="
+<div style="
     width: 45%;
     display: inline-block;
     vertical-align: top;
 ">  
-      <p style="    margin: 0;
+      
+<p style="
+    margin: 0;
     margin-right: 15px;
-    font-size: 16px;">{{description}}</p>
+    font-size: 16px;
+">Internet creó la mejor época de la humanidad.</p>
+<p style="
+    margin: 0;
+    margin-right: 15px;
+    font-size: 16px;
+"><strong>Conecta</strong> al máximo nivel posible.</p><p style="
+    margin: 0;
+    margin-right: 15px;
+    font-size: 16px;
+">Crea portafolios, sé autodidacta y forma parte de las redes sociales que están cambiando al mundo.</p>
     </div>
-    {{/if}}  
+
+{{#tag}}
+
+{{#if image}}
+	<div style="width: 30%;display: inline-block;margin-left: 8%;">
+      <img src="{{@blog.url}}{{image}}" style="    width: 100%;
+    padding: 5px;
+    background: #fff;
+    line-height: 15px;" alt="{{name}}" />
+    </div>
+{{/if}}
+
 {{/tag}}
+
 <ol id="posts-list">  
   {{#foreach posts}}
   <li>
